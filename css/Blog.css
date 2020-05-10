@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+hr {
+    margin: 12px 0px;
+}
+
+a,
+i {
+    cursor: pointer;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+#Home {
+    background-image: url(../images/blog-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 232px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.73);
+    height: 232px;
+}
+
+nav {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.navbar-brand {
+    color: #FF305B !important;
+    font-size: 25;
+}
+
+.navbar-collapse ul.navbar-nav li a {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -ms-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+}
+
+.nav-item:hover .nav-link {
+    color: #FF305B !important;
+}
+
+#Home .overlay .My-name .Name {
+    font-size: 30px;
+}
+
+#Home .overlay .My-name .job {
+    font-weight: 300;
+    font-size: 26px;
+    color: #fff;
+}
+
+.fade-text {
+    word-spacing: 1;
+}
+
+#Home .overlay .My-name p {
+    font-size: 25px;
+}
+
+.navbar-brand {
+    width: 40px;
+}
+
+.top,
+.middle,
+.bottom {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    margin: 4px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.blog-image img {
+    width: 100%;
+}
+
+.search-icon {
+    width: 50px;
+    background-color: #f1f1f1;
+}
+
+.search-icon:hover {
+    background-color: #FF305B;
+    cursor: pointer;
+}
+
+.search-icon:hover i {
+    color: white;
+}
+
+.Categories h5,
+.Tags h5 {
+    font-size: 27px;
+}
+
+.list-link a {
+    color: #555 !important;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.list-link a:hover {
+    color: #FF305B !important;
+}
+
+.Fields li {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Fields li:hover {
+    color: #FF305B;
+    border-color: #FF305B;
+    cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.blog-title h3 {
+    color: #333;
+    font-size: 25px;
+}
+
+.blog-date {
+    color: gray;
+}
+
+.blog-title .blog-date .Magazine {
+    color: #FF305B;
+}
+
+.blog-title .blog-date .Magazine:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.speacial-Words blockquote {
+    background: #f1f1f1;
+    border-left: 4px solid #ff305b;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.speacial-Words blockquote p {
+    padding: 18px;
+}
+
+
+/*==================================================================================================================================*/
+
+.client-info h4 {
+    font-size: 16px;
+    color: #FF305B;
+}
+
+.reply {
+    width: fit-content;
+}
+
+.reply:hover {
+    color: #FF305B;
+    cursor: pointer;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.client-image img {
+    width: 80px;
+    height: 80px;
+}
+
+.return {
+    width: fit-content;
+}
+
+.dropdown-item a:hover {
+    color: #FF305B;
+}
+
+
+/*==============================================================================================================================*/
+
+.edit-span {
+    color: #ff305b;
+}
+
+.edit-span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333333;
+}
+
+
+/*================================================================================================================================*/

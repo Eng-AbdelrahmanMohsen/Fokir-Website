@@ -1,0 +1,605 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a,
+i {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*  ============================================= Home Section============================================================= */
+
+#Home {
+    background-image: url(../images/slider-01.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.navbar-brand {
+    color: #FF305B !important;
+    font-size: 25;
+}
+
+.navbar-collapse ul.navbar-nav li a {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -ms-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+}
+
+.nav-item:hover .nav-link {
+    color: #FF305B !important;
+}
+
+#Home .overlay .My-name .Name {
+    color: #FF305B;
+    font-size: 70px;
+}
+
+#Home .overlay .My-name .job {
+    font-weight: 300;
+    font-size: 26px;
+    color: #fff;
+}
+
+.fade-text {
+    word-spacing: 1;
+}
+
+#Home .overlay .My-name p {
+    font-size: 25px;
+}
+
+.navbar-brand {
+    width: 40px;
+}
+
+.top,
+.middle,
+.bottom {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    margin: 4px;
+}
+
+
+/* ============================================================================================================================*/
+
+
+/*  ================================================Services Section=================================================================*/
+
+#Profile {
+    margin-top: 100px;
+}
+
+#Profile .container .row .col-md-5 .Box {
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    border: 10px solid #555555;
+    width: 90%;
+}
+
+#Profile .container .row .col-md-5 .Box .Profile-Pic {
+    top: 25px;
+    left: 30px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    width: 100%;
+}
+
+#Profile .container .row .col-md-5 .Box .Profile-Pic img {
+    width: 100%;
+}
+
+#Profile .container .row .col-md-5 .Box .Profile-Pic .Over-lay {
+    background-color: rgba(0, 0, 0, 0.57);
+    top: 100%;
+    left: 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+#Profile .container .row .col-md-5 .Box .Profile-Pic:hover .Over-lay {
+    top: 0%;
+}
+
+#Profile .container .row .col-md-7 .overview .Hello {
+    margin-top: 30px;
+}
+
+#Profile .container .row .col-md-7 .overview .Hello::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 25px;
+    top: 53;
+    left: 0;
+    background-color: #FF305B;
+    margin-left: 14px;
+}
+
+#Profile .container .row .col-md-7 .overview .Line {
+    border-bottom: 4px dashed black;
+}
+
+.Download-Button,
+.Hire-Button {
+    background-color: #FF305B;
+}
+
+.Download-Button:hover,
+.Hire-Button:hover {
+    background-color: red;
+}
+
+.icon-one:hover,
+.icon-two:hover,
+.icon-three:hover,
+.icon-four:hover {
+    color: #FF305B !important;
+}
+
+
+/*==============================================================================================================================*/
+
+
+/* ===============================================Services Section==============================================================*/
+
+#Services {
+    background-color: #f1f1f1;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+#Services h2 {
+    font-size: 40px;
+}
+
+#Services h2:before {
+    content: "";
+    border-color: #ff305b;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 5px;
+    width: 70px;
+}
+
+#Services h2:after {
+    content: "";
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.UIdesign,
+.UXdesign,
+.Appdevelopment,
+.ProductDesign {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.UIdesign:hover,
+.UXdesign:hover,
+.Appdevelopment:hover,
+.ProductDesign:hover {
+    background-color: white;
+    box-shadow: 0px 0px 20px -2px black;
+}
+
+
+/*===========================================================================================================================*/
+
+
+/*===================================================== Portfolio Section ====================================================*/
+
+#Portfolio {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+#Portfolio h2 {
+    font-size: 40px;
+}
+
+#Portfolio h2:before {
+    content: "";
+    border-color: #ff305b;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 5px;
+    width: 70px;
+}
+
+#Portfolio h2:after {
+    content: "";
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.new-nav {
+    width: fit-content;
+    margin: auto;
+}
+
+.lay-over {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.images:hover .lay-over {
+    opacity: 1;
+}
+
+.overlay-icon {
+    top: 80%;
+    right: 2%;
+}
+
+
+/*========================================================================================================================*/
+
+
+/*================================== Testimonial Section =====================================================================*/
+
+#Testimonial {
+    background-color: #f1f1f1;
+}
+
+.testimonial-h3 {
+    font-size: 35px;
+}
+
+.icon-color {
+    color: #FF305B;
+}
+
+
+/*========================================================================================================================*/
+
+
+/*===========================================Member Section----------------------------------------------------------------*/
+
+#Client {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+#Client h2 {
+    font-size: 40px;
+}
+
+#Client h2:before {
+    content: "";
+    border-color: #ff305b;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 5px;
+    width: 70px;
+}
+
+#Client h2:after {
+    content: "";
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.item {
+    width: 800px;
+    height: 230px;
+    margin: auto;
+    background-color: #f1f1f1;
+}
+
+.childs {
+    clip-path: polygon(0 0, 0 80%, 60% 0);
+    background-color: #FF305B;
+    width: 330px;
+    height: 180px;
+}
+
+.client-revi {
+    width: 95%;
+    height: 230px;
+    top: 15px;
+    left: 20px;
+    margin-bottom: 200px;
+}
+
+.image-client {
+    width: 130px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #FF305B;
+}
+
+.icon-star {
+    color: orange;
+}
+
+.font-client {
+    font-style: italic;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*=====================================================Blog Section=======================================================*/
+
+#Blog {
+    margin-top: 80px;
+    padding-bottom: 100px;
+    background-color: #f1f1f1;
+}
+
+#Blog h2 {
+    font-size: 40px;
+}
+
+#Blog h2:before {
+    content: "";
+    border-color: #ff305b;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 5px;
+    width: 70px;
+}
+
+#Blog h2:after {
+    content: "";
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#Blog .container .row .col-md-4 .card .card-body .text-title:hover,
+#Blog .container .row .col-md-4 .card .card-body button a:hover {
+    color: #ff305b !important;
+    text-decoration: none;
+}
+
+
+/*=======================================================================================================================*/
+
+
+/*=======================================Contact-Us Section==============================================================*/
+
+#ContactUs {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+#ContactUs h2 {
+    font-size: 40px;
+}
+
+#ContactUs h2:before {
+    content: "";
+    border-color: #ff305b;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 5px;
+    width: 70px;
+}
+
+#ContactUs h2:after {
+    content: "";
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.form-control:hover {
+    box-shadow: 0px 0px 10px -2px black;
+}
+
+.form-control:focus {
+    border-color: red;
+    box-shadow: 0px 0px 10px -3px red;
+}
+
+.btn-edit {
+    background-color: #ff305b;
+}
+
+.btn-edit:hover {
+    background-color: red;
+}
+
+
+/*========================================================================================================================*/
+
+
+/*================================================Footer Section===============================================================*/
+
+.edit-span {
+    color: #ff305b;
+}
+
+.edit-span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333333;
+}
+
+
+/*=========================================================================================================================*/
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, white, #ff305b);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333333;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #FF305B;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .navbar-collapse ul {
+        background-color: gray !important;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {}
+
+@media (min-width: 371px) and (max-width: 767px) {
+    .item {
+        width: 500px;
+        height: 400px;
+    }
+    .client-image {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {}
+
+@media (min-width: 769px) and (max-width: 1300px) {}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .navbar-collapse ul {
+        background-color: transparent !important;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
